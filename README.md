@@ -1,5 +1,10 @@
 # 🛒 BlinkIT Grocery Data Analytics Project
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
+![SQL](https://img.shields.io/badge/SQL-Database-green)
+
 Transforming raw grocery sales data into meaningful business insights using Python, SQL, and Power BI.
 
 ---
@@ -51,7 +56,7 @@ This project aims to answer these questions through data analytics.
 🔄 Current Phase:
 
 ```text
-Phase 3: Data Cleaning & Validation
+Phase 4: Exploratory Data Analysis (EDA)
 ```
 
 Completed Progress:
@@ -59,8 +64,8 @@ Completed Progress:
 ```text
 Dataset Understanding      ✅
 Data Profiling             ✅
-Data Cleaning              🔄
-EDA                         ⏳
+Data Cleaning              ✅
+EDA                         🔄
 Feature Engineering         ⏳
 KPI Creation                ⏳
 SQL Analytics               ⏳
@@ -86,7 +91,7 @@ Portfolio Optimization      ⏳
 - Detect duplicate records
 - Investigate categorical values
 
-### Phase 3: Data Cleaning & Validation 🔄
+### Phase 3: Data Cleaning & Validation ✅
 
 - Handle missing values
 - Remove duplicate records
@@ -94,7 +99,7 @@ Portfolio Optimization      ⏳
 - Validate business logic
 - Detect outliers
 
-### Phase 4: Exploratory Data Analysis
+### Phase 4: Exploratory Data Analysis 🔄
 
 - Product analysis
 - Sales analysis
@@ -170,10 +175,12 @@ Examples:
 blinkit_analysis
 │
 ├── Dataset
-│   ├── blinkit_dataset.csv
+│   ├── blinkit_dirty_dataset.csv
+│   └── blinkit_cleaned_dataset.csv
 │
 ├── Python
 │   ├── data_cleaning.ipynb
+│   ├── eda_analysis.ipynb
 │
 ├── SQL
 │
@@ -203,6 +210,32 @@ blinkit_analysis
 ### Duplicate Handling
 
 - Removed duplicate records
+
+### Business Logic Validation
+
+- Removed negative sales values
+- Removed unrealistic visibility values
+- Removed invalid future establishment years
+
+---
+
+## Exploratory Data Analysis Progress
+
+### Completed Analysis
+
+- Dataset validation
+- Statistical summary analysis
+- Sales distribution analysis
+- Sales outlier analysis
+- Product pricing distribution analysis
+
+### Key Findings
+
+- Sales distribution is positively skewed
+- High sales values exist as business outliers
+- Product prices follow multiple pricing segments
+- Product prices appear realistic
+- Most products generate low to moderate sales
 
 ---
 
