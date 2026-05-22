@@ -56,7 +56,7 @@ This project aims to answer these questions through data analytics.
 🔄 Current Phase:
 
 ```text
-Phase 4: Exploratory Data Analysis (EDA)
+Phase 5: Feature Engineering
 ```
 
 Completed Progress:
@@ -65,12 +65,12 @@ Completed Progress:
 Dataset Understanding      ✅
 Data Profiling             ✅
 Data Cleaning              ✅
-EDA                         🔄
-Feature Engineering         ⏳
-KPI Creation                ⏳
+EDA                         ✅
+Feature Engineering         🔄
+KPI Creation                ✅
 SQL Analytics               ⏳
 Power BI Dashboard          ⏳
-Business Insights           ⏳
+Business Insights           ✅
 Portfolio Optimization      ⏳
 ```
 
@@ -99,49 +99,35 @@ Portfolio Optimization      ⏳
 - Validate business logic
 - Detect outliers
 
-### Phase 4: Exploratory Data Analysis 🔄
+### Phase 4: Exploratory Data Analysis ✅
 
 - Product analysis
 - Sales analysis
 - Outlet analysis
-- Trend analysis
+- Correlation analysis
+- KPI generation
+- Business insights
 
-### Phase 5: Feature Engineering
+### Phase 5: Feature Engineering 🔄
 
 - Create useful analytical features
 - Prepare data for deeper analysis
 
-### Phase 6: KPI Creation
-
-Examples:
-
-- Total Sales
-- Average Sales
-- Outlet Performance
-- Product Contribution
-- Category Performance
-
-### Phase 7: SQL Analytics
+### Phase 6: SQL Analytics
 
 - Business queries
 - Aggregations
 - Window functions
 - Advanced analysis
 
-### Phase 8: Power BI Dashboard
+### Phase 7: Power BI Dashboard
 
 - KPI cards
 - Interactive dashboard
 - Slicers and filters
 - Business visualizations
 
-### Phase 9: Business Insights
-
-- Key findings
-- Recommendations
-- Data storytelling
-
-### Phase 10: Portfolio Optimization
+### Phase 8: Portfolio Optimization
 
 - GitHub optimization
 - Resume project description
@@ -181,6 +167,7 @@ blinkit_analysis
 ├── Python
 │   ├── data_cleaning.ipynb
 │   ├── eda_analysis.ipynb
+│   ├── feature_engineering.ipynb
 │
 ├── SQL
 │
@@ -219,23 +206,38 @@ blinkit_analysis
 
 ---
 
-## Exploratory Data Analysis Progress
+## Exploratory Data Analysis Completed
 
-### Completed Analysis
+### Analysis Performed
 
-- Dataset validation
-- Statistical summary analysis
 - Sales distribution analysis
-- Sales outlier analysis
-- Product pricing distribution analysis
+- Product category analysis
+- Outlet analysis
+- Correlation analysis
+- Revenue contribution analysis
+- Multivariate analysis
+- KPI generation
 
 ### Key Findings
 
-- Sales distribution is positively skewed
-- High sales values exist as business outliers
-- Product prices follow multiple pricing segments
-- Product prices appear realistic
-- Most products generate low to moderate sales
+- Fruits and Vegetables generated the highest total sales.
+- Supermarket Type1 contributed the highest total revenue.
+- Supermarket Type3 showed the highest average sales.
+- Tier 3 contributed the highest overall sales.
+- Item MRP showed moderate positive correlation with sales.
+- Outlet-related factors influenced sales more strongly than product-related factors.
+
+---
+
+## KPI Summary
+
+| KPI | Value |
+|------|--------|
+| Total Sales | ₹18.55M |
+| Average Sales | ₹2,182 |
+| Average MRP | ₹140.98 |
+| Total Products | 1559 |
+| Total Outlets | 10 |
 
 ---
 
