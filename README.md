@@ -5,6 +5,10 @@
 ![PowerBI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
 ![SQL](https://img.shields.io/badge/SQL-Database-green)
 
+<p align="center">
+  <img src="Images/overview.png" width="100%">
+</p>
+
 Transforming raw grocery sales data into meaningful business insights using Python, SQL, and Power BI.
 
 ---
@@ -174,6 +178,7 @@ blinkit_analysis
 ├── PowerBI
 │
 ├── Images
+│   └── project_overview.png
 │
 └── README.md
 ```
