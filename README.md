@@ -15,11 +15,15 @@ Transforming raw grocery sales data into meaningful business insights using Pyth
 
 ## Project Overview
 
-This project focuses on performing an end-to-end data analytics workflow on BlinkIT grocery sales data.
+This project performs an end-to-end analytics workflow on BlinkIT grocery sales data.
 
-The project simulates a real-world business scenario where messy and inconsistent data is cleaned, validated, analyzed, and transformed into actionable insights for decision-making.
+The project simulates a real-world business scenario where raw and inconsistent data is cleaned, analyzed, transformed, and converted into actionable insights for business decision-making.
 
-The goal is not only to build dashboards but also to think and work like a Data Analyst.
+Goal:
+
+- Think and work like a Data Analyst
+- Build an end-to-end analytics pipeline
+- Create business insights from raw data
 
 ---
 
@@ -33,34 +37,16 @@ Without proper analysis, it becomes difficult to answer questions such as:
 - Which outlet performs best?
 - How do product characteristics influence sales?
 - Which categories contribute most to revenue?
-- What patterns can help improve business decisions?
-
-This project aims to answer these questions through data analytics.
-
----
-
-## Project Goals
-
-- Understand dataset structure
-- Perform data cleaning
-- Handle missing values
-- Remove duplicate records
-- Standardize inconsistent data
-- Validate business logic
-- Perform exploratory data analysis
-- Create KPIs
-- Build SQL queries
-- Develop an interactive Power BI dashboard
-- Generate business insights
+- What patterns can improve business decisions?
 
 ---
 
 ## Current Progress
 
-🔄 Current Phase:
+Current Phase:
 
 ```text
-Phase 5: Feature Engineering
+Phase 6: SQL Analytics
 ```
 
 Completed Progress:
@@ -70,91 +56,64 @@ Dataset Understanding      ✅
 Data Profiling             ✅
 Data Cleaning              ✅
 EDA                         ✅
-Feature Engineering         🔄
+Feature Engineering         ✅
 KPI Creation                ✅
-SQL Analytics               ⏳
+SQL Analytics               🔄
 Power BI Dashboard          ⏳
-Business Insights           ✅
+Business Insights           ⏳
 Portfolio Optimization      ⏳
 ```
 
 ---
 
-## Project Phases
+## Feature Engineering Completed
 
-### Phase 1: Dataset Understanding ✅
+Created Features:
 
-- Understand dataset structure
-- Understand business context
-- Identify columns and data types
+- Outlet_Age
+- Price_Category
+- Product_Category
+- Visibility_Category
+- Fat_Content_Code
 
-### Phase 2: Data Profiling ✅
+---
 
-- Check dataset dimensions
-- Identify missing values
-- Detect duplicate records
-- Investigate categorical values
+## KPI Summary
 
-### Phase 3: Data Cleaning & Validation ✅
+| KPI | Value |
+|------|--------|
+| Total Sales | ₹18.55M |
+| Average Sales | ₹2,182 |
+| Average MRP | ₹140.98 |
+| Total Products | 1559 |
+| Total Outlets | 10 |
 
-- Handle missing values
-- Remove duplicate records
-- Standardize categories
-- Validate business logic
-- Detect outliers
+---
 
-### Phase 4: Exploratory Data Analysis ✅
+## Key Findings
 
-- Product analysis
-- Sales analysis
-- Outlet analysis
-- Correlation analysis
-- KPI generation
-- Business insights
-
-### Phase 5: Feature Engineering 🔄
-
-- Create useful analytical features
-- Prepare data for deeper analysis
-
-### Phase 6: SQL Analytics
-
-- Business queries
-- Aggregations
-- Window functions
-- Advanced analysis
-
-### Phase 7: Power BI Dashboard
-
-- KPI cards
-- Interactive dashboard
-- Slicers and filters
-- Business visualizations
-
-### Phase 8: Portfolio Optimization
-
-- GitHub optimization
-- Resume project description
-- Interview preparation
+- Fruits & Vegetables generated highest revenue
+- Supermarket Type1 contributed highest total sales
+- Supermarket Type3 showed highest average sales
+- Tier 3 locations generated strongest revenue
+- Product price showed moderate influence on sales
+- Visibility showed weak negative relationship with sales
 
 ---
 
 ## Tech Stack
 
 ### Programming & Analysis
-
 - Python
 - Pandas
 - NumPy
 
 ### Visualization
-
 - Matplotlib
 - Seaborn
 - Power BI
 
 ### Database
-
 - SQL
 
 ---
@@ -185,74 +144,13 @@ blinkit_analysis
 
 ---
 
-## Data Cleaning Completed
-
-### Category Standardization
-
-- LF → Low Fat
-- low fat → Low Fat
-- reg → Regular
-
-### Missing Value Treatment
-
-- Item_Weight → Median
-- Item_MRP → Median
-- Outlet_Size → Mode
-
-### Duplicate Handling
-
-- Removed duplicate records
-
-### Business Logic Validation
-
-- Removed negative sales values
-- Removed unrealistic visibility values
-- Removed invalid future establishment years
-
----
-
-## Exploratory Data Analysis Completed
-
-### Analysis Performed
-
-- Sales distribution analysis
-- Product category analysis
-- Outlet analysis
-- Correlation analysis
-- Revenue contribution analysis
-- Multivariate analysis
-- KPI generation
-
-### Key Findings
-
-- Fruits and Vegetables generated the highest total sales.
-- Supermarket Type1 contributed the highest total revenue.
-- Supermarket Type3 showed the highest average sales.
-- Tier 3 contributed the highest overall sales.
-- Item MRP showed moderate positive correlation with sales.
-- Outlet-related factors influenced sales more strongly than product-related factors.
-
----
-
-## KPI Summary
-
-| KPI | Value |
-|------|--------|
-| Total Sales | ₹18.55M |
-| Average Sales | ₹2,182 |
-| Average MRP | ₹140.98 |
-| Total Products | 1559 |
-| Total Outlets | 10 |
-
----
-
 ## Future Enhancements
 
-- Sales forecasting
-- Customer behavior analysis
-- Advanced KPI dashboard
-- Trend prediction
-- Interactive business reporting
+- SQL business analytics
+- Interactive Power BI dashboard
+- Business storytelling
+- Resume optimization
+- Interview preparation
 
 ---
 
