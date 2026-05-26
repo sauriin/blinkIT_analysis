@@ -19,11 +19,12 @@ This project performs an end-to-end analytics workflow on BlinkIT grocery sales 
 
 The project simulates a real-world business scenario where raw and inconsistent data is cleaned, analyzed, transformed, and converted into actionable insights for business decision-making.
 
-Goal:
+### Goal
 
 - Think and work like a Data Analyst
 - Build an end-to-end analytics pipeline
 - Create business insights from raw data
+- Generate business recommendations using SQL and dashboards
 
 ---
 
@@ -37,6 +38,7 @@ Without proper analysis, it becomes difficult to answer questions such as:
 - Which outlet performs best?
 - How do product characteristics influence sales?
 - Which categories contribute most to revenue?
+- Which business factors drive revenue?
 - What patterns can improve business decisions?
 
 ---
@@ -55,13 +57,13 @@ Completed Progress:
 Dataset Understanding      ✅
 Data Profiling             ✅
 Data Cleaning              ✅
-EDA                         ✅
-Feature Engineering         ✅
-KPI Creation                ✅
-SQL Analytics               🔄
-Power BI Dashboard          ⏳
-Business Insights           ⏳
-Portfolio Optimization      ⏳
+Exploratory Data Analysis  ✅
+Feature Engineering        ✅
+KPI Creation               ✅
+SQL Analytics              ✅
+Power BI Dashboard         ⏳
+Business Insights          ⏳
+Portfolio Optimization     ⏳
 ```
 
 ---
@@ -90,31 +92,57 @@ Created Features:
 
 ---
 
-## Key Findings
+## SQL Analytics Summary
+
+| Analysis Area | Key Finding |
+|---------------|-------------|
+| Product Revenue | Fruits & Vegetables generated highest revenue |
+| Outlet Type | Supermarket Type1 generated highest total sales |
+| Average Outlet Performance | Supermarket Type3 generated highest average sales |
+| Location Analysis | Tier 3 generated highest total revenue |
+| Outlet Ranking | OUT027 consistently ranked highest |
+| Bottom Performers | OUT010 and OUT019 consistently ranked lowest |
+| Product Classification | Products categorized using CASE WHEN |
+| Business Recommendation | Fruits & Vegetables, Snack Foods and Household identified as priority categories |
+
+---
+
+## Key Business Findings
+
+### Revenue Drivers
 
 - Fruits & Vegetables generated highest revenue
-- Supermarket Type1 contributed highest total sales
-- Supermarket Type3 showed highest average sales
-- Tier 3 locations generated strongest revenue
-- Product price showed moderate influence on sales
-- Visibility showed weak negative relationship with sales
+- Snack Foods and Household products showed strong performance
+- Tier 3 locations generated strongest total revenue
+- Supermarket Type1 and Type3 performed strongly
+- OUT027 repeatedly ranked highest across metrics
+
+### Weak Contributors
+
+- Grocery Stores showed weakest performance
+- OUT010 and OUT019 consistently ranked low
+- Fat Content showed weak influence on sales
+- Visibility showed weak relationship with sales
 
 ---
 
 ## Tech Stack
 
 ### Programming & Analysis
+
 - Python
 - Pandas
 - NumPy
 
 ### Visualization
+
 - Matplotlib
 - Seaborn
 - Power BI
 
 ### Database
-- SQL
+
+- SQL (SQLite)
 
 ---
 
@@ -130,14 +158,19 @@ blinkit_analysis
 ├── Python
 │   ├── data_cleaning.ipynb
 │   ├── eda_analysis.ipynb
-│   ├── feature_engineering.ipynb
+│   └── feature_engineering.ipynb
 │
 ├── SQL
+│   └── blinkit_queries.sql
 │
 ├── PowerBI
 │
 ├── Images
-│   └── project_overview.png
+│   └── overview.png
+│
+├── create_db.py
+│
+├── blinkit.db
 │
 └── README.md
 ```
@@ -146,11 +179,12 @@ blinkit_analysis
 
 ## Future Enhancements
 
-- SQL business analytics
 - Interactive Power BI dashboard
-- Business storytelling
-- Resume optimization
+- Advanced KPI cards
+- Business storytelling dashboard
+- Portfolio optimization
 - Interview preparation
+- Predictive analytics
 
 ---
 
