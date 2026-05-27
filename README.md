@@ -1,8 +1,8 @@
 # 🛒 BlinkIT Grocery Data Analytics Project
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![PowerBI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![SQL](https://img.shields.io/badge/SQL-Database-green)
 
 <p align="center">
@@ -43,15 +43,7 @@ Without proper analysis, it becomes difficult to answer questions such as:
 
 ---
 
-## Current Progress
-
-Current Phase:
-
-```text
-Phase 6: SQL Analytics
-```
-
-Completed Progress:
+## Project Progress
 
 ```text
 Dataset Understanding      ✅
@@ -61,10 +53,18 @@ Exploratory Data Analysis  ✅
 Feature Engineering        ✅
 KPI Creation               ✅
 SQL Analytics              ✅
-Power BI Dashboard         ⏳
-Business Insights          ⏳
+Power BI Dashboard         ✅
+Business Insights          🔄
 Portfolio Optimization     ⏳
 ```
+
+---
+
+## Dashboard Preview
+
+<p align="center">
+  <img src="Images/dashboard.png" width="100%">
+</p>
 
 ---
 
@@ -103,7 +103,7 @@ Created Features:
 | Outlet Ranking | OUT027 consistently ranked highest |
 | Bottom Performers | OUT010 and OUT019 consistently ranked lowest |
 | Product Classification | Products categorized using CASE WHEN |
-| Business Recommendation | Fruits & Vegetables, Snack Foods and Household identified as priority categories |
+| Business Recommendation | Fruits & Vegetables, Snack Foods, and Household identified as priority categories |
 
 ---
 
@@ -114,7 +114,7 @@ Created Features:
 - Fruits & Vegetables generated highest revenue
 - Snack Foods and Household products showed strong performance
 - Tier 3 locations generated strongest total revenue
-- Supermarket Type1 and Type3 performed strongly
+- Supermarket Type1 contributed nearly 70% of total sales
 - OUT027 repeatedly ranked highest across metrics
 
 ### Weak Contributors
@@ -129,19 +129,16 @@ Created Features:
 ## Tech Stack
 
 ### Programming & Analysis
-
 - Python
 - Pandas
 - NumPy
 
 ### Visualization
-
 - Matplotlib
 - Seaborn
 - Power BI
 
 ### Database
-
 - SQL (SQLite)
 
 ---
@@ -155,6 +152,10 @@ blinkit_analysis
 │   ├── blinkit_dirty_dataset.csv
 │   └── blinkit_cleaned_dataset.csv
 │
+├── Images
+│   ├── overview.png
+│   └── dashboard.png
+│
 ├── Python
 │   ├── data_cleaning.ipynb
 │   ├── eda_analysis.ipynb
@@ -163,28 +164,22 @@ blinkit_analysis
 ├── SQL
 │   └── blinkit_queries.sql
 │
-├── PowerBI
-│
-├── Images
-│   └── overview.png
+├── BlinkIT_Grocery_Sales_Analytics_Dashboard.pbix
 │
 ├── create_db.py
-│
 ├── blinkit.db
-│
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## Future Enhancements
 
-- Interactive Power BI dashboard
-- Advanced KPI cards
-- Business storytelling dashboard
-- Portfolio optimization
-- Interview preparation
+- Advanced business insights
 - Predictive analytics
+- Time series forecasting
+- Sales prediction models
 
 ---
 

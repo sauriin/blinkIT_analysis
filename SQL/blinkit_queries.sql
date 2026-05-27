@@ -423,7 +423,6 @@ FROM blinkit
 GROUP BY Item_Type
 ORDER BY TotalSales DESC;
 
-
 -- Insight:
 -- Fruits & Vegetables, Snack Foods, and Household
 -- were identified as Priority Categories.
