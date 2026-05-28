@@ -45,18 +45,16 @@ Without proper analysis, it becomes difficult to answer questions such as:
 
 ## Project Progress
 
-```text
-Dataset Understanding      ✅
-Data Profiling             ✅
-Data Cleaning              ✅
-Exploratory Data Analysis  ✅
-Feature Engineering        ✅
-KPI Creation               ✅
-SQL Analytics              ✅
-Power BI Dashboard         ✅
-Business Insights          🔄
-Portfolio Optimization     ⏳
-```
+Dataset Understanding      ✅  
+Data Profiling             ✅  
+Data Cleaning              ✅  
+Exploratory Data Analysis  ✅  
+Feature Engineering        ✅  
+KPI Creation               ✅  
+SQL Analytics              ✅  
+Power BI Dashboard         ✅  
+Business Insights          ✅  
+Portfolio Optimization     ✅  
 
 ---
 
@@ -126,19 +124,55 @@ Created Features:
 
 ---
 
+## Business Insights & Recommendations
+
+### Key Insights
+
+1. Fruits & Vegetables generated the highest revenue, indicating strong customer demand and consistent sales volume.
+
+2. Supermarket Type1 contributed nearly 70% of total sales, making it the primary revenue driver.
+
+3. Tier 3 locations generated the strongest overall revenue, suggesting higher market potential in these areas.
+
+4. OUT027 consistently ranked as the top-performing outlet across multiple analyses.
+
+5. Medium-sized outlets generated the highest sales, indicating an effective balance between capacity and operations.
+
+6. Grocery Stores showed the weakest performance, suggesting opportunities for strategy improvement.
+
+7. Regular and Low Fat products showed only small sales differences, indicating fat content has limited influence on purchasing behavior.
+
+8. Priority categories identified:
+   - Fruits & Vegetables
+   - Snack Foods
+   - Household
+
+### Business Recommendations
+
+- Increase inventory for high-performing categories
+- Expand strategies used by OUT027 to similar outlets
+- Improve performance strategies for Grocery Stores
+- Focus marketing efforts on Tier 3 markets
+- Maintain stock availability for top-selling products
+
+---
+
 ## Tech Stack
 
 ### Programming & Analysis
+
 - Python
 - Pandas
 - NumPy
 
 ### Visualization
+
 - Matplotlib
 - Seaborn
 - Power BI
 
 ### Database
+
 - SQL (SQLite)
 
 ---
@@ -170,8 +204,8 @@ blinkit_analysis
 ├── blinkit.db
 ├── README.md
 └── .gitignore
-```
 
+```
 ---
 
 ## Future Enhancements
